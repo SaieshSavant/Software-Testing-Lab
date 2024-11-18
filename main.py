@@ -12,9 +12,9 @@ class Exp5Test:
         driver = self.driver
         driver.find_element(By.ID, "student-tab").click()
         time.sleep(4) 
-        driver.find_element(By.NAME, "admission_no").send_keys("0656/IS/2021")
+        driver.find_element(By.NAME, "admission_no").send_keys("admission no")
         time.sleep(2)
-        driver.find_element(By.CLASS_NAME, "student_pass").send_keys("saiesh123")
+        driver.find_element(By.CLASS_NAME, "student_pass").send_keys("password")
         time.sleep(2)
         driver.find_element(By.ID, "login-student").click()
         time.sleep(1000) 
