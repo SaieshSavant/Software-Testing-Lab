@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 class Exp8Test(unittest.TestCase):
     
     def setUp(self):
-        self.driver = webdriver.Firefox()  
+        self.driver = webdriver.Chrome()  
         self.driver.get("http://www.google.co.in")
         self.driver.maximize_window()
     
